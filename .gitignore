@@ -86,7 +86,7 @@ typings/
 .env
 
 # build directory
-/build/
+/output/
 
 # npm config files with sensitive data
 .npmrc
