@@ -13,7 +13,8 @@ module.exports = {
     },
     plugins: [new Serve({
         // [::] for some reason doesn't work (but [::1] does)
-        host: 'localhost'
+        host: 'localhost',
+        hmr: false
     })],
     watch: true
 };
