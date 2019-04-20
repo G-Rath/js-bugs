@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016",
+      "es2017.object"
+    ],
+    "rootDir": "./",
+    "outDir": "./out",
+    "baseUrl": "./",
+    "jsx": "react",
+    "paths": {
+      "file": [ "./src/file.ts" ],
+      "@src/*": [ "./src/*" ],
+      "@test/*": [ "./test/*" ]
+    },
+    "allowJs": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "pretty": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "plugins": [
+      { "transform": "ts-transformer-enumerate/transformer" }
+    ]
+  },
+  "exclude": [ "node_modules" ]
+}
