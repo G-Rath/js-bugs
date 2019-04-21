@@ -6,3 +6,10 @@ export namespace BotSocket {
     | 'render-letter'
     ;
 }
+
+export type RequestType =
+  | 'handshake'
+  | 'submit-query'
+  | 'submit-event'
+  | 'render-letter'
+  ;

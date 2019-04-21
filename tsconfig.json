@@ -7,7 +7,6 @@
     "outDir": "./out",
     "baseUrl": "./",
     "paths": {
-      "file": [ "./src/file.ts" ],
       "@src/*": [ "./src/*" ],
       "@test/*": [ "./test/*" ]
     },
