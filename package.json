@@ -1,25 +1,25 @@
 {
-    "name": "js-bugs",
-    "version": "0.0.0",
-    "description": "Repo for showing off bugs with js npm packages.",
-    "homepage": "https://github.com/G-Rath/js-bugs#readme",
-    "bugs": {
-        "url": "https://github.com/G-Rath/js-bugs/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/G-Rath/js-bugs.git"
-    },
-    "license": "ISC",
-    "author": "Gareth Jones",
-    "main": "index.js",
-    "scripts": {
-        "test": "jest",
-        "test-with-coverage": "npm run test -- --coverage"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "@types/jest": "^24.0.11",
-        "jest": "^24.7.1"
-    }
+  "name": "js-bugs",
+  "version": "0.0.0",
+  "description": "Repo for showing off bugs with js npm packages.",
+  "homepage": "https://github.com/G-Rath/js-bugs#readme",
+  "bugs": {
+    "url": "https://github.com/G-Rath/js-bugs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-Rath/js-bugs.git"
+  },
+  "license": "ISC",
+  "author": "Gareth Jones",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-with-coverage": "npm run test -- --coverage"
+  },
+  "dependencies": { },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.1"
+  }
 }
