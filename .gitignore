@@ -91,8 +91,6 @@ typings/
 # npm config files with sensitive data
 .npmrc
 
-src/**/*.js
-src/**/*.js.map
 .lambda
 
 .awcache/
