@@ -14,8 +14,7 @@
   "author": "Gareth Jones",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test-with-coverage": "npm run test -- --coverage"
+    "test": "jest"
   },
   "jest": {
     "testRunner": "jest-circus/runner"
