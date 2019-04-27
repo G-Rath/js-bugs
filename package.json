@@ -1,24 +1,24 @@
 {
-    "name": "js-bugs",
-    "version": "0.0.0",
-    "description": "Repo for showing off bugs with js npm packages.",
-    "homepage": "https://github.com/G-Rath/js-bugs#readme",
-    "bugs": {
-        "url": "https://github.com/G-Rath/js-bugs/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/G-Rath/js-bugs.git"
-    },
-    "license": "ISC",
-    "author": "Gareth Jones",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "@types/node": "^10.12.21",
-        "typescript": "^3.3.1"
-    }
+  "name": "js-bugs",
+  "version": "0.0.0",
+  "description": "Repo for showing off bugs with js npm packages.",
+  "homepage": "https://github.com/G-Rath/js-bugs#readme",
+  "bugs": {
+    "url": "https://github.com/G-Rath/js-bugs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-Rath/js-bugs.git"
+  },
+  "license": "ISC",
+  "author": "Gareth Jones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.21",
+    "typescript": "^3.3.1"
+  }
 }
