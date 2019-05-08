@@ -16,6 +16,43 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx",
+      "node"
+    ],
+    "moduleNameMapper": {
+      "^@src/(.*)$": "<rootDir>/src/$1",
+      "^@test/(.*)$": "<rootDir>/test/$1"
+    },
+    "resetMocks": true,
+    "restoreMocks": true,
+    "setupFiles": [],
+    "setupFilesAfterEnv": [
+      "react-testing-library/cleanup-after-each"
+    ],
+    "testRunner": "jest-circus/runner",
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    }
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/react": "^16.8.16",
+    "@types/react-dom": "^16.8.4",
+    "jest": "^24.8.0",
+    "jest-circus": "^24.8.0",
+    "jest-dom": "^3.2.1",
+    "react-testing-library": "^7.0.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  }
 }
