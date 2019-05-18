@@ -14,8 +14,32 @@
   "author": "Gareth Jones",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "wp --config ./webpack.dev.js"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@material-ui/core": "^4.0.0-beta.2",
+    "@material-ui/styles": "^4.0.0-beta.2",
+    "axios": "^0.18.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "@types/webpack": "^4.4.31",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.11.2",
+    "dotenv": "^8.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.31.0",
+    "webpack-cdn-plugin": "^3.1.1",
+    "webpack-merge": "^4.2.1",
+    "webpack-nano": "^0.6.2",
+    "webpack-plugin-serve": "^0.10.0"
+  }
 }
