@@ -14,8 +14,12 @@
   "author": "Gareth Jones",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run link-ts-estree",
+    "link-ts-estree": "ln -s ../ts-estree node_modules/ts-estree",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
 }
